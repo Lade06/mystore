@@ -3,7 +3,6 @@ import "./App.css";
 import Store from "./Components/Contents";
 import Footer from "./Components/Footer";
 import Form from "./Components/contactform";
-import ContactForm from "./Components/form";
 import Navbar from "./Components/navbar";
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Navbar />
       <Store />
       <Form />
-      <ContactForm />
       <Footer />
     </div>
   );
