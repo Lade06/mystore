@@ -81,7 +81,7 @@ const Form = () => {
             </form>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6 mapp">
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
