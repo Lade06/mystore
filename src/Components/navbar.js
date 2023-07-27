@@ -1,4 +1,6 @@
+import React from "react";
 import {FaShoppingCart} from "react-icons/fa"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -7,12 +9,16 @@ const Navbar = () => {
           <div className="container-fluid">
             <h1>LADEH DELICACIES</h1>
             <a className="navbar-brand" href="/">Home</a>
-            <a className="navbar-brand" href="/">Products</a>
-            <a className="navbar-brand" href="/">Services</a>
+            <Link className="lnk" to="/products">Products</Link>
+          
+            
+            <Link className="lnk" to="/services">Services</Link>
+
           
             {/* <a className="nav-link" href="#">Features</a>
             <a className="nav-link" href="#">Features</a>
-            <a className="nav-link" href="#">Features</a> */}
+            <a className="nav-link" href="#">Features</a>
+              <a className="navbar-brand" href="/">Products</a> */}
   
   <FaShoppingCart  className="mr-5" color="white" size="3em" />
             <form className="d-flex" role="search">

@@ -1,3 +1,4 @@
+import React from "react";
 const Footer = () => {
   return (
     <div>
@@ -8,14 +9,13 @@ const Footer = () => {
               <h1 className="text-uppercase">LADEH DELICACIES</h1>
 
               <p>
-                Ladeh Delicacies provides you with varieties of delicious <br />  delicacies at your disposal,
-                we offer delivery Nation wide <br /> with affordable price.
+                Ladeh Delicacies provides you with varieties of delicious <br />{" "}
+                delicacies at your disposal, we offer delivery Nation wide{" "}
+                <br /> with affordable price.
               </p>
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              {/* <h5 className="text-uppercase">Links</h5> */}
-
               <ul className="list-unstyled mb-0">
                 <li>
                   <a href="/" className="text-white">
@@ -41,8 +41,6 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              
-
               <ul className="list-unstyled">
                 <li>
                   <a href="/" className="text-white">
@@ -71,10 +69,9 @@ const Footer = () => {
 
         <div
           className="text-center p-3"
-          style={ { backgroundColor: 'rgba(0, 0, 0, 0.2)'} }
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-        <h4>  © 2023 Copyright 
-           Ladeh Delicacies </h4>
+          <h4> © 2023 Copyright Ladeh Delicacies </h4>
         </div>
       </footer>
     </div>
